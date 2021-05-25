@@ -7,9 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CourseApiApp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		SpringApplication.run(CourseApiApp.class, args);	// this will start the CourseApiApp and start the servlet and host this app on that servlet.
-		 
+		SpringApplication.run(CourseApiApp.class, args);
 	}
 
 }

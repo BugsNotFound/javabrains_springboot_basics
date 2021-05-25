@@ -1,34 +1,146 @@
-# Java annotation processor (APT)
-.factorypath
+######################
+# Project Specific
+######################
+/src/main/webapp/content/css/main.css
+/src/main/webapp/bower_components/
+/target/www/**
 
-# PDT-specific (PHP Development Tools)
+######################
+# Node
+######################
+node/
+node_tmp/
+node_modules/
+.factorypath
+.springBeans
+######################
+# SASS
+######################
+.sass-cache/
+
+######################
+# Eclipse
+######################
+*.pydevproject
+.project
+.metadata
+tmp/
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+/src/main/resources/rebel.xml
+
+######################
+# May be IDE related
+######################
+glassfish-web.xml
+
+# External tool builders
+.externalToolBuilders/**
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
 .buildpath
 
-# sbteclipse plugin
-.target
+######################
+# Intellij
+######################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
 
-# Tern plugin
-.tern-project
+######################
+# Visual Studio Code
+######################
+.vscode/
 
-# TeXlipse plugin
-.texlipse
+######################
+# Maven
+######################
+log/
+target/
 
-# STS (Spring Tool Suite)
-.springBeans
+######################
+# Gradle
+######################
+.gradle/
 
-# Code Recommenders
-.recommenders/
+######################
+# Package Files
+######################
+*.jar
+*.war
+*.ear
+*.db
 
-# Scala IDE specific (Scala & Java development for Eclipse)
-.cache-main
-.scala_dependencies
-.worksheet
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
 
-### Eclipse Patch ###
-# Eclipse Core      
-.project
+# Folder config file
+Desktop.ini
 
-# JDT-specific (Eclipse Java Development Tools)     
-.classpath
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
 
-# End of https://www.gitignore.io/api/eclipse
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+######################
+# Directories
+######################
+/build/
+/bin/
+/deploy/
+
+######################
+# Logs
+######################
+*.log
+
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
+
+######################
+# Gradle Wrapper
+######################
+!gradle/wrapper/gradle-wrapper.jar
+
+######################
+# Maven Wrapper
+######################
+!.mvn/wrapper/maven-wrapper.jar
+
+######################
+# ESLint
+######################
+.eslintcache
+/.apt_generated/
